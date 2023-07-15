@@ -26,3 +26,10 @@ window.onload = function() {
         agregarPersona();
     });
 }
+window.onload = function2() {
+    let formulario = document.getElementsByTagName("form")[0];
+    formulario.addEventListener("submit", function(event) {
+        event.preventDefault();
+        agregarPersona();
+    });
+}
